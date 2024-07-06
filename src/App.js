@@ -188,7 +188,7 @@ function App() {
               <Route path="*" element={<Navigate to="/" />} />
             </Routes>
           </div>
-          <Footer />
+          <Footer developLink={siteContent.redirects.developLink} />
         </div>
       </BrowserRouter>
     </div>
