@@ -27,7 +27,7 @@ You will need:
 - node.js [(install)](https://nodejs.org/en/), specifically version 16
   - or use `homebrew` (macOS only)
 - git [(install)](https://git-scm.com/downloads)
-- a text editor of your choice or IDE. [Brackets](https://brackets.io/), [VSCode](https://code.visualstudio.com/download), and [Webstorm](https://www.jetbrains.com/webstorm/download/) are all great.
+- a text editor of your choice or IDE. [VSCode](https://code.visualstudio.com/download), and [Webstorm](https://www.jetbrains.com/webstorm/download/) are both great options.
 - a terminal to access the command line
   - see 
 [`Intro to the Command Line`](https://github.com/texas-HACS/hacs-frontend/blob/master/guides/intro_to_the_command_line.md) in our [guides](https://github.com/texas-HACS/hacs-frontend/tree/master/guides/)

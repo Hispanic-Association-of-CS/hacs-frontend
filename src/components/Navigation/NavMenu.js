@@ -34,25 +34,25 @@ export default function NavMenu(props) {
       </Link>
       {/* target opens a new tab so when making their pages remove them */}
       <Link to="/newsletter" target={newsletterLink?.target}>
-        <div className="nav-link">Newsletter</div>
+        <div className="nav-link">Mailing List</div>
       </Link>
-      <Link to="/develop" target={developLink?.target}>
-        <div className="nav-link">Develop</div>
-      </Link>
+      { /* <Link to="/develop" target={developLink?.target}>
+        <div className="nav-link">Develop</div> 
+      </Link> */}
       {/* <Link to="/contact" onClick={()=>props.tm(false)}>
               <div className="nav-link">Contact</div>
             </Link> */}
       <Link to="/sponsorship">
         <div className="nav-link">Sponsorship</div>
       </Link> 
-      <Link to="/sign-in">
+      { /* <Link to="/sign-in">
         <div className="nav-link">Sign In</div>
-      </Link>
-      <Link to="/admin">
+      </Link> */}
+      { /* <Link to="/admin">
         <div className="nav-link">
           <i className="fas fa-cog" />
         </div>
-      </Link>
+      </Link> */}
       {/* The TestNavLink below should only be used in cases where you want to test how things will
       render on the website. Make sure to comment it out before pushing to github. To test things
       just add your code to TestPage.js */}
